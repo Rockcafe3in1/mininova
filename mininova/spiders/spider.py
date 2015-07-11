@@ -1,8 +1,8 @@
 __author__ = 'liang'
 
 from mininova.item import TorrentItem
-from scrapy.contrib.spiders import CrawlSpider, Rule
-from scrapy.contrib.linkextractors import LinkExtractor
+from scrapy.spiders import CrawlSpider, Rule
+from scrapy.linkextractors import LinkExtractor
 
 class MininovaSpider(CrawlSpider):
 
